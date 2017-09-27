@@ -5,20 +5,21 @@ import java.util.Scanner;
 /**
  * Created by yrd on 2017/9/25.
  */
-public class Main {
+public class Answer {
 
     /**
      * 项目描述：写出一个程序，接受一个有字母和数字以及空格组成的字符串，和一个字符，然后输出输入字符串中含有该字符的个数。不区分大小写
      * 输入描述：输入一个有字母和数字以及空格组成的字符串，和一个字符。
      * 输出描述：输出输入字符串中含有该字符的个数。
      * 输入例子：ABCDEF
-     * 输出例子：A
+     *          A
+     * 输出例子：1
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNext()) {
-            String input = scanner.next();
-            String ch = scanner.next();
+            String input = scanner.nextLine();
+            String ch = scanner.nextLine();
             System.out.println(countCharNumber(input, ch));
         }
         scanner.close();

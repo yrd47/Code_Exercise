@@ -13,7 +13,7 @@ import java.util.TreeSet;
  *
  * Created by yrd on 2017/9/26.
  */
-public class Main {
+public class Answer {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by yrd on 2017/9/25.
  */
-public class Main {
+public class Answer {
 
     /**
      * 题目描述：计算字符串最后一个单词的长度，单词以空格隔开
