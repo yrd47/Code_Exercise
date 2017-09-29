@@ -4,3 +4,4 @@
 003-明明的随机数              Sep—26-exercise_1
 004-字符串分隔                Sep—26-exercise_2
 005-进制转换                  Sep-27-exercise-1
+006-质数因子                  Sep-27-exercise-2
