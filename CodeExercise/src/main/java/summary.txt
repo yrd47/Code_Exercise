@@ -6,3 +6,4 @@
 005-进制转换                  Sep-27-exercise-1
 006-质数因子                  Sep-27-exercise-2
 007-取近似值                 Sep-28-exercise-1
+008-合并表记录               Sep-28-exercise-2
