@@ -8,4 +8,5 @@
 007-取近似值                 Sep-28-exercise-1
 008-合并表记录               Sep-28-exercise-2
 009-提取不重复的整数            Sep-29-exercise-1
-010-符个数统计                 Sep-29-exercise-2
+010-字符个数统计               Sep-29-exercise-2
+011-颠倒数字                  Sep-30-exercise-1
