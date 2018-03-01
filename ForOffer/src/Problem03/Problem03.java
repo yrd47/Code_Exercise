@@ -3,7 +3,7 @@ package Problem03;
 /**
  * Created by yrd on 2018/2/25.
  * <p>
- * 剑指Offer 面试题2
+ * 剑指Offer 面试题3
  * 二维数组中的查找
  */
 public class Problem03 {

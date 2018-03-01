@@ -2,7 +2,7 @@ package Problem02;
 
 /**
  * Created by yrd on 2018/2/25.
- *
+ * <p>
  * 剑指Offer 面试题2
  * 实现Singleton模式
  * http://blog.csdn.net/derrantcm/article/details/45330779
@@ -17,7 +17,8 @@ public class Problem02 {
      * 由于getInstance()方法没有任何线程锁定，因此其性能不会造成任何影响
      */
     public static class Singleton5 {
-        private Singleton5() {}
+        private Singleton5() {
+        }
 
         private static class HolderClass {
             private static final Singleton5 instance = new Singleton5();
@@ -34,7 +35,8 @@ public class Problem02 {
     public static class Singleton {
         private static final Singleton INSTANCE = new Singleton();
 
-        private Singleton() {}
+        private Singleton() {
+        }
 
         public static Singleton getInstance() {
             return INSTANCE;
@@ -47,7 +49,8 @@ public class Problem02 {
     public static class Singleton2 {
         private static Singleton2 instance = null;
 
-        private Singleton2() {}
+        private Singleton2() {
+        }
 
         public static Singleton2 getInstance() {
             if (instance == null) {
@@ -63,7 +66,8 @@ public class Problem02 {
     public static class Singleton3 {
         private static Singleton3 instance = null;
 
-        private Singleton3() {}
+        private Singleton3() {
+        }
 
         public static synchronized Singleton3 getInstance() {
             if (instance == null) {
@@ -84,7 +88,8 @@ public class Problem02 {
             instance = new Singleton4();
         }
 
-        private Singleton4() {}
+        private Singleton4() {
+        }
 
         public static Singleton4 getInstance() {
             return instance;
@@ -95,7 +100,8 @@ public class Problem02 {
      * 懒汉式，线程安全，双重检查锁定
      */
     public static class Singleton6 {
-        private Singleton6() {}
+        private Singleton6() {
+        }
 
         private volatile static Singleton6 instance = null;
 
